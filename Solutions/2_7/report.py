@@ -39,7 +39,7 @@ def read_prices(filename):
 portfolio = read_portfolio('../../Work/Data/portfolio.csv')
 prices    = read_prices('../../Work/Data/prices.csv')
 
-# Calculate the total cost of the portfolio
+c# Calculate the total cost of the portfolio
 total_cost = 0.0
 for s in portfolio:
     total_cost += s['shares']*s['price']
